@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.artmeloon.ui.view.SquaredFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flRoot"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/idEpingle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+       />
+</com.artmeloon.ui.view.SquaredFrameLayout>

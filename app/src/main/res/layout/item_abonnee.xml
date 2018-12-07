@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/ivUserAvatar"
+            android:layout_width="@dimen/abonnee_avatar_size"
+            android:layout_height="@dimen/abonnee_avatar_size"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_comment_avatar" />
+<LinearLayout
+    android:layout_marginTop="17dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/nomUser"
+            android:textStyle="bold"
+            android:text="klcdwlnlwk"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/table"
+            android:text="12 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+
+            android:text=" Tables "
+            android:layout_marginTop="2dp"/>
+     <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:textSize="30dp"
+         android:layout_marginBottom="9dp"
+        android:text="."
+        android:layout_marginTop="2dp"/>
+        <TextView
+            android:id="@+id/followers"
+            android:text="3 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:text=" Followers"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="10dp"
+        android:background="#cccccc" />
+</FrameLayout>

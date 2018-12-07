@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/icons8share"
+        android:title="Compose"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/edit"
+        android:icon="@drawable/icons8edit"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="always">
+    </item>
+    <item
+        android:id="@+id/pushpin"
+        android:icon="@drawable/icons8pushpin"
+        app:showAsAction="always"
+        android:title="always">
+    </item>
+</menu>

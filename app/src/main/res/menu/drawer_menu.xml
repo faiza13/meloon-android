@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/homee"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/menu_popular"
+            android:icon="@drawable/popular"
+            android:title="Popular" />
+        <item
+            android:id="@+id/menu_photo_you_liked"
+            android:icon="@drawable/love"
+            android:title="Photos You've Liked" />
+    </group>
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>

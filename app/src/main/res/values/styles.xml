@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- styles.xml-->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/style_color_primary</item>
+        <item name="colorPrimaryDark">@color/style_color_primary_dark</item>
+        <item name="colorAccent">@color/style_color_accent</item>
+        <item name="colorControlHighlight">@color/fab_color_pressed</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.TransparentActivity.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ContextMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_context_menu</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+
+    </style>
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/white_54</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>
